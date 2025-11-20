@@ -91,17 +91,22 @@ http://localhost:3000
 
 El servidor escucha los regalos enviados en el Live:
 
+```js
 socket.on('gift', (data) => {
    if (data.giftName === 'Rose') {
        io.emit('roseReceived');
    }
 });
+```
+
 
 Ese evento llega al cliente (Phaser), activando una acción:
 
+```js
 socket.on('roseReceived', () => {
    player.moveForward();
 });
+```
 
 
 ![Screenshot](./public/assets/img/screenshot1.png)
