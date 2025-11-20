@@ -70,22 +70,30 @@ public/
 ## ⚙️ Instalación y Ejecución
 
 ### 1️⃣ Clonar el repositorio
+```
 git clone https://github.com/tu-usuario/LATAM-fighters.git
-
+```
 ###2️⃣ Instalar dependencias
+```
 npm install
-
+```
 ###3️⃣ Configurar credenciales de TikTok Live
 Crea un archivo .env en la raíz del proyecto:
+```
 TIKTOK_USERNAME=TU_USUARIO
 TIKTOK_ROOM_ID=LA_ROOM_ID_DE_TU_LIVE
+```
 
 ###4️⃣ Ejecutar el servidor
+```
 npm start
+```
 
 ###5️⃣ Ejecutar el juego
 Abre en el navegador:
+```
 http://localhost:3000
+```
 
 🧠 Lógica del Juego y Conexión con TikTok
 
